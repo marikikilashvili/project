@@ -1,0 +1,50 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.second {
+  height: 100dvh;
+  position: relative;
+  background-color: #05121b;
+}
+.ARENA,
+.mylord {
+  color: #ffffff;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 80px;
+  font-family: "Nunito", sans serif;
+  font-weight: 900;
+}
+
+.mylord {
+  margin-top: 0px;
+  color: #e14e60;
+}
+
+.left-image {
+  height: 586px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.star {
+  position: absolute;
+  right: 79.53px;
+  margin-top: -250px;
+}
+
+.right-image {
+  height: 572px;
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+}
+.most {
+  color: #ffffff;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
