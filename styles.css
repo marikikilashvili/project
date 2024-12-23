@@ -1,9 +1,9 @@
 html,
 body {
-  height: 100%; /* Ensure the body and html elements take the full height */
-  background-color: #05121b; /* Set your background color here */
-  margin: 0; /* Remove default margin to make sure the background covers the full page */
-  padding: 0; /* Remove any default padding */
+  height: 100%;
+  background-color: #05121b;
+  margin: 0;
+  padding: 0;
 }
 * {
   margin: 0;
@@ -19,7 +19,7 @@ body {
   align-items: center;
 }
 .arena {
-  margin: 72px;
+  margin-left: 80px;
 }
 
 .links .home {
