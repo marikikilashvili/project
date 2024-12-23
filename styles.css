@@ -1,11 +1,55 @@
-* {
-  margin: 0%;
-  padding: 0%;
+html,
+body {
+  height: 100%; /* Ensure the body and html elements take the full height */
+  background-color: #05121b; /* Set your background color here */
+  margin: 0; /* Remove default margin to make sure the background covers the full page */
+  padding: 0; /* Remove any default padding */
 }
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", "sans serif";
+}
+
+.header {
+  background-color: #ffffff;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arena {
+  margin: 72px;
+}
+
+.links .home {
+  color: #c45260;
+}
+
+.links a {
+  list-style: none;
+
+  color: #05121b;
+  margin: 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.night {
+  margin-right: 80px;
+}
+.aboutus,
 .second {
-  height: 100dvh;
   position: relative;
   background-color: #05121b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.second {
+  justify-content: center;
 }
 .ARENA,
 .mylord {
@@ -47,4 +91,54 @@
   text-align: center;
   display: flex;
   justify-content: center;
+}
+.discover-more,
+.app,
+.four-items {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.app {
+  margin-top: 111px;
+}
+.aboutus {
+  margin-top: 140px;
+}
+.third {
+  position: relative;
+  background-color: #05121b;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  display: flex;
+}
+.arenamaster {
+  margin: 42px 0px 16px 189px;
+  font-size: 26px;
+}
+.third p {
+  margin-left: 189px;
+  font-size: 18px;
+}
+.twophone {
+  position: absolute;
+  width: 447.51px;
+  height: 321px;
+  right: 111.11px;
+}
+.foursoldiers {
+  width: 445px;
+  height: 251px;
+  margin: 52px 89px 0px 174px;
+}
+.weare {
+  display: flex;
+  position: absolute;
+  right: 214px;
+  margin-top: 404px;
+  font-size: 18px;
 }
