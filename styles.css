@@ -40,7 +40,8 @@ body {
   margin-right: 80px;
 }
 .aboutus,
-.second {
+.second,
+.rectangle {
   position: relative;
   background-color: #05121b;
   display: flex;
@@ -141,4 +142,41 @@ body {
   right: 214px;
   margin-top: 404px;
   font-size: 18px;
+}
+
+.item {
+  width: 42px;
+  height: 30px;
+  object-fit: contain;
+  gap: 345px;
+}
+
+.rect {
+  position: absolute;
+}
+.items {
+  justify-content: center;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 969px;
+  height: 153px;
+  background-size: cover;
+  position: absolute;
+  gap: 70px;
+}
+.rectangle {
+  margin-top: 136px;
+}
+
+.item-text {
+  font-size: 18px;
+  color: white;
+}
+.item-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
 }
