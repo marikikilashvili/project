@@ -40,8 +40,7 @@ body {
   margin-right: 80px;
 }
 .aboutus,
-.second,
-.rectangle {
+.second {
   position: relative;
   background-color: #05121b;
   display: flex;
@@ -179,4 +178,91 @@ body {
   flex-direction: row;
   align-items: center;
   gap: 10px;
+}
+.whitepapers {
+  margin-top: 413px; /* Add space between the rectangle and whitepapers */
+  display: flex;
+  gap: 110px;
+  justify-content: center;
+}
+
+.rectangle {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;   
+  position: relative;   
+} 
+.chechout {
+  color: #ffffff;
+  margin-top: 140px;
+  text-align:center;
+  font-family: 'Nunito', 'Sans serif';
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.isari {
+  margin-top:16px;
+  margin-bottom:32px;
+  width: 29.81px;
+  height: 30px;
+}
+
+.image-wrapper {
+  position: relative; 
+}
+
+.outer-image {
+  display: block; 
+  width: 100%; 
+}
+
+.inner-image {
+  position: absolute; 
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+.design {
+  display: flex; 
+  justify-content: center; 
+ margin-top: 116px;
+ margin-bottom: 60px;
+ align-items: center;
+}
+.isrebi {
+  display: flex;
+  justify-content:space-around;
+  margin-left:80px;
+  margin-right:80px;
+}
+.pictures {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 32px;
+}
+.pictures img {
+border-radius:10px
+}
+.roadmap {
+  display: flex; 
+  justify-content: center; 
+  margin-top: 148px;
+  margin-bottom: 32px;
+}
+.arenamasterr {
+  color: #ffffff;
+  font-size: 18px;
+}
+.are {
+display: flex;
+justify-content: center;
+align-items: center;
 }
